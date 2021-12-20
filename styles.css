@@ -1,0 +1,53 @@
+body {
+  background: orange;
+}
+.container {
+  background-color: red;
+  height: 600px;
+  width: 400px;
+  display: grid;
+  /* grid-template-rows: 110px 110px 110px;
+  grid-template-columns: 110px 110px 10px; */
+  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows : 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.item {
+  background-color: teal;
+  /* height: 100px;
+  width: 100px;; */
+  /* if width & height removed, then item will take up the complete space. */
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* CSS for layout page */
+
+.container1 {
+  display: grid;
+  background-color: royalblue;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 250px ;
+  height: 500px;
+  /* width: 500px; */
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.itemm {
+  background-color: pink;
+}
+.itemm1 {
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  /* or  */
+  grid-column: 1 / span 3;
+}
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /* background-color:; */
+}

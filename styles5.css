@@ -1,0 +1,38 @@
+body {
+  background-color: orange;
+}
+div {
+  /* padding: 20px; */
+  font-weight: bold;
+}
+.header {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.columns {
+  background-color: aliceblue;
+  /* float: left; */
+  padding: 30px;
+  /* width: 300px; */
+  /* display: inline; */
+}
+.col {
+  float: left;
+}
+.col1 {
+  width: 30%;
+  /* float: left; */
+}
+.col2 {
+  width: 50%;
+  /* float: left; */
+}
+.col3 {
+  width: 20%;
+  /* float: right; */
+}
+.footer {
+  background-color: aliceblue;
+  padding: 20px;
+  clear: both;
+}

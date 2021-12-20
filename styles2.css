@@ -1,0 +1,38 @@
+body {
+  background-color: orange;
+}
+.container {
+  background-color: blueviolet;
+  display: grid;
+  /* height: 400px;
+  width: 400px; */
+  row-gap: 10px;
+  /* column-gap: 10px; */
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  padding: 10px;
+}
+.item {
+  background-color: blanchedalmond;
+  /* height: 100px;
+  width: 100px; */
+  padding: 20px 0;
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}

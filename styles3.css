@@ -1,0 +1,20 @@
+body {
+  background-color: orange;
+}
+
+.item1 {
+  grid-area: a;
+}
+.container {
+  display: grid;
+  background-color: rgb(0, 0, 255);
+  padding: 10px;
+  grid-template-areas: 'a a a a a';
+  gap: 10px;
+}
+.item {
+  background-color: aliceblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* width: 20px; */
+}

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+.header {
+  padding: 20px;
+  border: 1px solid brown;
+}
+.mids {
+  border-left: 1px solid brown;
+  border-right: 1px solid brown;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  padding: 20px;
+  border: 1px solid brown;
+}
